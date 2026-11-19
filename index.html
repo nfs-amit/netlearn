@@ -1,15 +1,35 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3MB8ZN3V2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Y3MB8ZN3V2');
+</script>
+<!-- End Google Analytics -->
+
 <title>NetLearn — Free Computer Networking Academy</title>
 <meta name="description" content="NetLearn is a free computer networking academy. Learn networking from zero to advanced with animated lessons, practice sets, interview questions and tools. No login, no payment.">
+
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M8 8l16 4M8 8l6 16M24 12l-10 12' fill='none' stroke='%2317233f' stroke-width='2'/%3E%3Ccircle cx='8' cy='8' r='5' fill='%234058d6'/%3E%3Ccircle cx='24' cy='12' r='5' fill='%23f08a45'/%3E%3Ccircle cx='14' cy='24' r='5' fill='%234058d6'/%3E%3C/svg%3E">
-<script>try{var t=JSON.parse(localStorage.getItem('netlearn.v1')||'{}').theme;if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+
+<script>
+try {
+  var t = JSON.parse(localStorage.getItem('netlearn.v1') || '{}').theme;
+  if (t) document.documentElement.setAttribute('data-theme', t);
+} catch(e) {}
+</script>
 </head>
 <body>
 <div id="root"><noscript><p style="padding:16px">NetLearn needs JavaScript to show lessons, quizzes and tools. Please enable JavaScript in your browser.</p></noscript></div>
 <script type="module" src="/src/main.tsx"></script>
 </body>
 </html>
+
